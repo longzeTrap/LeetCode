@@ -17,3 +17,12 @@ class Solution {
       return result;  
     }
 }
+
+
+/*
+思路：
+给定数组nums[]，以及一个目标值target，nums中有两个元素相加等于target，返回这两个元素的下标。
+map中key是元素值，value是元素下标。将所有元素存入map。
+
+target-nums[i]若在map中，则map.get(target-nums[i])求取下标
+*/
