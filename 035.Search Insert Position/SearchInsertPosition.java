@@ -23,6 +23,21 @@ class Solution {
     }
 }
 
+better
+class Solution {
+    public int searchInsert(int[] nums, int target) {
+        
+		for(int i=0;i<nums.length;i++)
+		{
+			if(target<=nums[i])
+				return i;
+		}
+			return nums.length;
+    }
+}
+
+
+
 
 /*
 题目；给定一个已排序的数组，以及一个目标值，若要把目标值按排序插入，找出目标值位置。
